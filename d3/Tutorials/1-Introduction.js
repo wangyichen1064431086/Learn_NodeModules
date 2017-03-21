@@ -2,7 +2,8 @@
 /** 资源：
  * 网站<https://github.com/d3/d3/blob/master/API.md>
  * 指南：<https://github.com/d3/d3/wiki/Tutorials>
- * API Docs:<https://github.com/d3/d3/blob/master/API.md>
+ * API Docs:<https://github.com/d3/d3/blob/master/API.md>（这是4.0手册）
+ * API 3.x Docs:<https://github.com/d3/d3-3.x-api-reference/blob/master/API-Reference.md>（这是3.0手册）
  */
 
 /**
