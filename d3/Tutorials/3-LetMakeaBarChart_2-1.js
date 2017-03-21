@@ -19,7 +19,7 @@
 /**
  * (代码参见html页)
  * SVG不支持flow layout,故每个g都要加上属性 transform="translate(x,y)"
- * SVG的一个常见的困扰点是：必须以attributes方式指定的属性和可以用styles设置的属性之间的区别。一个速记规则是：几何学属性（如rect的width属性)必须指定为attributes，美学属性（如fill)可以用styles设置。虽然attributes适用于所有属性，我还是推荐你用styles来设置美学属性；这样保证了任何inline styles 在样式层叠表中表现良好。
+ * MARK:SVG的一个常见的困扰点是：必须以attributes方式指定的属性和可以用styles设置的属性之间的区别。一个速记规则是：几何学属性（如rect的width属性)必须指定为attributes，美学属性（如fill)可以用styles设置。虽然attributes适用于所有属性，我还是推荐你用styles来设置美学属性；这样保证了任何inline styles 在样式层叠表中表现良好。
  * SVG要求文字明确地放置在text elements中。由于text元素不支持padding或margins，文字的位置需要由3个偏移量决定。
  ** TechTip:svg元素(如text)几种定位属性：
  * x:该属性在用户坐标系统中标识了一个x轴坐标。大多数时候，它体现了引用元素的矩形区域的左上角的x轴坐标
