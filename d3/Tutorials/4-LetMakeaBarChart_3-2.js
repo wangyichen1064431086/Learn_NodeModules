@@ -24,7 +24,7 @@ var x = d3.scale.ordinal()
      * @param: interval, Type Array,包含两个元素分别为最大值和最小值。这个范围被划分为n个均匀分布的带条，n是input 的数值个数。
      * @param: outerPadding/padding,这些带条可能与interval的边缘有偏移,带条之间也有间隔，默认为0，区间为[0,1]。0.5表示带宽和间隔宽相同。
      **d3.scale.ordinal.rangeRoundBands(interval[, padding[, outerPadding]])
-     * 同rangeBands，除了保证了范围值和带宽是整数。
+     * 同rangeBands，另外还保证了范围值和带宽是整数。
     */
 
 var y = d3.scale.linear()
