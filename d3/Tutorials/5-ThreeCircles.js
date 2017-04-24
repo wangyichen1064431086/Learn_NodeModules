@@ -21,7 +21,7 @@ circle.attr("cx", function() {
 /// Binding Data
 /**
  *  Let’s say we want these circles represent the numbers 32, 57 and 112. The selection.data method binds the numbers to the circles
- * Tthe first number (the first datum, 32) is bound to the first circle (the first element, based on the order in which they are defined in the DOM), the second number is bound to the second circle, and so on.
+ * The first number (the first datum, 32) is bound to the first circle (the first element, based on the order in which they are defined in the DOM), the second number is bound to the second circle, and so on.
  */
 circle.data([32, 57, 112])
   .attr("r", function(d) {
